@@ -1,40 +1,155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="css/bootstrap.css" >
-    
-  </head>
-  <body>
-    <div class="container">
-    <h1 class="text-center">FRAMEWORK DE CSS BOOTSTRAP</h1>
-
-    <h2>¿Cuál es la funcionalidad de Bootstrap?</h2>
-    <P>bootstrap ofrece una serie de características que se pueden implementar en un sitio web. A continuación hablaremos de las posibilidades de esta herramienta.
-
-        <h2>Diseño responsive</h2>
-        Una de las características principales de Bootstrap es permitir que la adaptación de la página se realice según el tipo de dispositivo utilizado. Para garantizar la responsividad, el framework funciona con:
-        
-        la estilización del elemento ;
-        el uso del class container.
-        En la práctica, el elemento , funciona para crear una serie de notas, similar a una tabla, capaz de estructurar la página de forma adaptable.
-        
-        Ya hubo un intento de utilizar tablas para crear diseños responsivos, sin embargo existían limitaciones para definir la longitud de las columnas lo que hizo imposible su uso en dispositivos más pequeños, como smartphones.
-        
-        El elemento  es más flexible, ya que permite definir y cambiar el tamaño de la longitud fácilmente.
-        
-        Bootstrap le ha asignado al elemento  una característica de class container, que funciona para determinar las dimensiones apropiadas para los elementos insertados en ese espacio.
-        
-        Básicamente, o framework funciona con tres tipos de containers:
-        
-        Container: como un conjunto con una propiedad de ancho máximo, que determina qué tamaño de tela es ideal para crear el diseño de página.
-        Container-fluid: considera la longitud total de la tela del dispositivo para definir el diseño. Para esto, se considera la propiedad width —100% en todos los límites de tamaño de tela—.
-        Container-{ breakpoint}: considera width —100% hasta alcanzar un cierto tamaño—.
-        Biblioteca de componentes</P>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!--inicio de menú-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--fin de menú-->
+    <!-- Inicio de carucel  Imagenes -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img/Atardecer1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Atardecer2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Atardecer3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--Fin de carrusel Imagenes-->
+    <br>
+     <!--INICIO DE CONTENIDO-->
+    <div class="row">
+  <div class="col-md-5 col-4">
+<hr>
+  </div>
+    <div class="col-md-2 col-6">
+        <h1 class="text-center"> Atartedeceres </h1>
     </div>
+    <div class="col-md-5 col-2">
+        <hr>
+    </div>
+    </div>
+    <!--fin de contenido-->
+
+    <!--Inicio de 3 fotos -->
+    <div class="row">
+        <div class=" col-md-2">
+        </div>
+
+        <div class=" col-md-3 col-4 text-center">
+        <img src="Img/Isla1.jpg" class="img-thumbnail rounded-circle"  alt="...">
+    
+           <h6>Cada puesta de sol trae la promesa de un nuevo amanecer</h6> </div>
+
+        <div class=" col-md-3 col-4 text-center " >
+            <img src="Img/Isla2.jpg" class="img-thumbnail rounded-circle" alt="...">
+
+        <h6>El sol se pone, pero su luz permanece</h6></div>
+
+            <div class=" col-md-3 col-4 text-center" >
+                <img src="Img/Isla3.jpg" class="img-thumbnail rounded-circle" alt="...">
+            <h6>Cada puesta de sol es una oportunidad para reiniciar</h6></div>   
+    </div>
+    <div class=" col-md-2">
+    </div>
+</div>
+<!--fin de 3 fotos-->
+<br>
+  <!--INICIO DE CONTENIDO-->
+  <div class="row">
+    <div class="col-md-5 col-4">
+  <hr>
+    </div>
+      <div class="col-md-2 col-6">
+          <h1 class="text-center"> paisajes </h1>
+      </div>
+      <div class="col-md-5 col-2">
+          <hr>
+      </div>
+      </div>
+      <!--fin de contenido-->
+  <br>
+  <!--Imagenes con card-->
+  <div class="row">
+    <div class=" col-md-2 col-6 ">
+        
+            <img src="Img/Isla1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class=" col-md-2 col-6 ">
+           
+                <img src="Img/Isla2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    </div>
+    
+  
+
+  <!--Fin de Inicio con card-->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
