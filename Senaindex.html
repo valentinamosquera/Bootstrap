@@ -7,30 +7,22 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="Estilo.css">
   </head>
- 
-    <body>
-        <div class="d-grid gap-4">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <picture>
-                    <img src="Img/logoSena.png" class=" img-fluid rounded-circle" alt="..." width="100" height="100">
-                    <img src="Img/SofiaPlus.png" class=" img-fluid rounded " alt="..." width="300" height="100">
-                    <img src="Img/trabajo.jpg" class="  img-fluid rounded float-end" alt="..." width="500" height="100">
-                  <a class="navbar-brand" href="#"></a>
-
-                  </picture>
-                  </div>
-            </nav>
-        </div>
-
+  <body>
+    <div class="container-fluid col-md-8"> 
+      <br>
+    <img class="imglogo" src="Img/logoSena.png"  alt="" srcset="">
+    <img class="imgsofia" src="Img/SofiaPlus.png"  alt="" srcset="">
+    <img class="imgmintrabajo" src="Img/trabajo.jpg" class=" img-fluid rounded" alt="..." width="500" height="100">
+    
+  </div>
+  <br>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav col-md-12  " style="background-color: #39a900;">
+          <div class="navbar-nav col-md-12" style="background-color:#39a900;">
             <a class=" col-md-3" href="#"></a>
             <a class="nav-link active col-md-1" aria-current="page" href="#">Inicio</a>
             <a class="nav-link active col-md-1" aria-current="page" href="#">Buscar Oferta</a>
@@ -40,45 +32,113 @@
           </div>
       </div>
     </div>
+    <hr>
     </nav>
-    <div class="container-fluid col-md-11">
-      <h4 class="text-center text-primary">Bienvenido a Sofia Plus, el portal de oferta educativa del SENA</h4>
-
-  </div>
- <hr>
- <div class="row">
-    <div class=" col-md-2">
+    <div class="container-fluid col-md-8"> 
+    <div class="col-md-12">
+      <br>
+      <br>
+<div class="col-md-12 row">
+    <div class="col">
+      <br>
+      <h5 class="text-center text-primary">Bienvenido a Sofia Plus, el portal de oferta educativa del SENA</h5>
     </div>
+    <div class="col-md-6">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="card-body" style="background-color: #39a900;">
+              <h6 class="text-light card-title" >Del 02 al 10 de agosto del 2023</h6>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h6 class="text-primary card-title">Cronograma convocatoria modalidad virtual 2023</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class=" col-md-1"></div>
+    <div class=" col-md-2 col-3 text-center">
+    <img src="Img/Medalla.png" class="img-thumbnail rounded-circle"  alt="...">
+       <h6>Carreras presenciales</h6> </div>
+    <div class=" col-md-2 col-3 text-center " >
+        <img src="Img/mano.png" class="img-thumbnail rounded-circle" alt="...">
+        <h6>Carreras Virtuales</h6></div>
+        <div class=" col-md-2 col-3 text-center" >
+            <img src="Img/lapiz.png" class="img-thumbnail rounded-circle" alt="...">
+        <h6>Cursos cortos presenciales</h6></div>   
+        <div class=" col-md-2 col-3 text-center" >
+            <img src="Img/compu.png" class="img-thumbnail rounded-circle" alt="...">
+        <h6>Cursos cortos virtuales </h6></div> 
+        <div class=" col-md-2 col-3 text-center" >
+            <img src="Img/mensaje.png" class="img-thumbnail rounded-circle" alt="...">
+        <h6>Cursos de ingles</h6></div>   
+</div>
+<div class="col-md-2">
+</div>
+<hr>
+<div class="row">
+<div class="col-md-7 col-6 ">
+<div class="form-control" style="background-color:#585b54;">
+  <div class="col-md-12">
+    <label for="inputState" class="col-md-12 text-light form-label"> ¿Que te gustaria estudiar?</label>
+         <div class="">
+          <div class="col-md-11 input-group mb-3">
+            <select id="inputState" class="form-select">
+              <option selected>Todos los tipos</option>
+              <option selected>Carreras tecnicas</option>
+              <option selected>Cursos cortos</option>
+              <option selected>Formacion virtual</option>
+              <option selected>Formacion empresas</option>
+            </select>
+            <input type="text" class="form-control" placeholder="Ej: Cocina, Contabilidad" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          </div>
+          <label for="exampleInputEmail1" class="text-light form-label">¿En donde le gustaria estudiar?</label>
+          <input type="text" class="form-control" placeholder="Ej: Cali, Cartagena" aria-label="Username" aria-describedby="basic-addon1">
+          <br>
+           <input type="checkbox" class="form-check-input" id="exampleCheck1">
+           <label class="text-light form-check-label" for="exampleCheck1">Todos los programas</label>
+           <div class="col-md-10">
+           <input type="checkbox" class="form-check-input" id="exampleCheck1">
+           <label class="text-light form-check-label" for="exampleCheck1">Solo programas con oferta de formacion disponible</label>
+          </div>
+           <button type="button" id="boton1" class="col-md-3 btn btn-success" style="background-color: #39a900;">buscar</button>
+           <br>
+  </div>
+</div>
+</div>
 
-    <div class=" col-md-1 col-4 text-center">
-    <img src="Img/medalla.png" class="img-thumbnail rounded-circle" alt="...">
+<div class="col-md-3">
+<div class="row">
+<div class="col-sm-9 mb-7 mb-sm-0" style="background-color: #fff; max-width:18rem;">
+  <div>
+    
+  <p class="card-text">Registrese para incribirse a los programas de formacion</p>
+  <button type="button" class="btn btn-success" style="background-color: #39a900;">Registrarse</button>
+</div>
+
+<div class="card mb-3" style="background-color: #fff; max-width:18rem;">
+  <p class="card-text">Ingrese para acceder al sistema si ya esta registrado.</p>
+   <button type="button" class="btn btn-success" style="background-color: #39a900;">Ingresar</button>
+ </div>
+</div>
+
+ 
+
   
 
-       <h6>Cada </h6> </div>
-
-    <div class=" col-md-1 col-4 text-center " >
-        <img src="Img/medalla.png" class="img-thumbnail rounded-circle" alt="...">
-
-    <h6>El </h6></div>
-
-        <div class=" col-md-1 col-4 text-center" >
-            <img src="Img/" class="img-thumbnail rounded-circle" alt="...">
-        <h6>Cada </h6></div>  
-
-        <div class=" col-md-1 col-4 text-center" >
-            <img src="Img/" class="img-thumbnail rounded-circle" alt="...">
-        <h6>Cada </h6></div>
-
-        <div class=" col-md-1 col-4 text-center" >
-            <img src="Img/" class="img-thumbnail rounded-circle" alt="...">
-        <h6>Cada </h6></div>
-</div>
-<div class=" col-md-2">
-</div>
-</div>
 
 
 
+
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
   </body>
