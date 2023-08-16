@@ -1,15 +1,45 @@
 .imglogo{
-    width: 7%;
+    width: 9.8%;
+    margin-left: 20%;
     }
-.imgsofia{
-    width: 15%;
-    margin-left: 5%;
-}
-.Imgtrabajo{
-    width: 30%;
-    margin-left: 10%;
-}
-
-#boton1{
-    margin-left: 70%;
-}
+    
+    .imglogo2{
+    width: 9.8%;
+        }
+    
+    .imglogo3{
+    width: 20%;
+    margin-left:3%;
+            }
+    #boton1{
+        margin-left: 70%;
+    }        
+    
+    .key{
+        width: 13%;
+    }
+    .usu{
+        width: 9%;
+    }
+    .fle{
+        margin-left: 90%;
+        width: 3%;
+        height: 4;
+    }
+    
+    .ic{
+       
+        width: 105%;
+    }
+    
+    .cr{
+        margin-right: 90%;
+        width: 100%;
+    }
+    
+    
+    .fle2{
+        margin-left: 90%;
+        width: 30%;
+        height: 4;
+    }
